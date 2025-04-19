@@ -3,9 +3,9 @@
 
 const express = require('express');
 const router = express.Router();
-const Entry = require('../model/entries');
+const Entry = require('../models/entries');
 
-// saving new eentry
+// creating new eentry
 router.post('/', async (req, res) => {
   try {
     const data = req.body;
