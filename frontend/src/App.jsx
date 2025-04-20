@@ -36,7 +36,8 @@ function App() {
 
   const handleFormChange = (index, field, value) => {
     const newFormEntries = [...formEntries];
-    // For hours, field might be an object key
+   
+    
     if (field in newFormEntries[index].hours) {
       newFormEntries[index].hours[field] = value;
     } else {
