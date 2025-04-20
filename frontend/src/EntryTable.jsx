@@ -1,4 +1,3 @@
-// frontend/src/EntryTable.jsx
 import React from 'react';
 
 function EntryTable({ entries }) {
